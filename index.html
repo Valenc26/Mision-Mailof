@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misión: Enamorado a mi lof</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+
+<body>
+
+    <div id="inicio">
+
+        <h1>💘 Misión: 💘</h1>
+        <h1> Enamorado a mi lof </h1>
+    
+        <div class="mensaje">
+            <p>Una misión diseñada especialmente para ti... 💕</p>
+
+        <button id="comenzar"> ❤ Comenzar misión ❤ </button>
+       
+        </div>
+    </div>
+
+    
+
+    <div id="nivel1" style="display:none;">
+
+        <h1>❤️ Nivel 1 ❤️</h1>
+
+        <div class="mensaje">
+    
+        <h2>¿Qué tanto conoces a tu lof?</h2>
+    
+        <p>Ha llegado tu primera prueba... 😏</p>
+    
+        <h3>Nuestra primer cita</h3>
+        <h3>(debes elegír los emojis que identifiquen nuestra primer cita)</h3>
+    
+        <button class="respuesta" data-correcta="false">👩🏽‍❤️‍👨🏽🍷🕯️</button>
+        <button class="respuesta" data-correcta="true">🐕🌲🪵</button>
+        <button class="respuesta" data-correcta="false">🤔❓🚫</button>
+    
+        <p id="resultado"></p>
+        </div>
+    </div>
+
+        <div id="nivel2" style="display:none;">
+
+            <h1>💘 Nivel 2 💘</h1>
+           
+            <div class="mensaje">
+    
+            <h2>¡Vas muy bien, mi lof! 😏</h2>
+        
+            <p>Pero ahora viene una prueba un poquito más difícil... 👀</p>
+        
+            <h3>Desifra el mensaje oculto y responde (facilisimo)</h3>
+            <h2> Una flor que nos recordo el cariño que nació y arde como el fuego de tal hoguera</h2>
+        
+            <button class="respuesta2" data-correcta="false">🌸</button>
+            <button class="respuesta2" data-correcta="false">🌻</button>
+            <button class="respuesta2" data-correcta="true">🌼</button>
+        
+            <p id="resultado2"></p>
+            </div>
+        
+        </div>
+    
+        <div id="nivel3" style="display:none;">
+
+            <h1>🔐 Nivel 3 🔐</h1>
+
+            <div class="mensaje">
+        
+            <h2>📁 ARCHIVO CONFIDENCIAL 📁</h2>
+        
+            <p>Has llegado hasta aquí... pero ahora la misión cambia. 👀</p>
+        
+            <h3>Para continuar, debes descubrir la palabra secreta. 💌</h3>
+        
+            <p>💡 Pista: Es una palabra que usamos mucho entre nosotros. ❤️</p>
+        
+            <input type="text" id="palabraSecreta" placeholder="Escribe la palabra...">
+        
+            <button id="desbloquear">🔓 Desbloquear</button>
+        
+            <p id="resultado3"></p>
+            </div>
+        </div>
+
+        <div id="nivel4" style="display:none;">
+
+            <div class="mensaje">
+
+            <h1>🎵 Nivel 4 🎵</h1>
+        
+            <h2>Una canción para ti 🐤</h2>
+        
+            <p>Porque así siento este amorcito 🥰 </p>
+        
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5bZBRfGoUy5rizZGyjj6NR?utm_source=generator&theme=0&si=f3aa01909f984bff" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br>
+
+            <button id="siguiente4">Siguiente ▶️ </button>
+        </div>
+        </div>
+
+        <div id="nivel5" style="display:none;">
+
+            <div class="mensaje">
+
+            <h1>Ahora...</h1>
+        
+            <h2>Te quiero muuuuuuuuuuuuchoo 🐮</h2>
+        
+            <p> Se que a veces querer puede ser maravilloso, fantastico, pero otras veces no tanto;
+                y de eso se trata, quiero que hallemos la forma en que esas diferencias no se noten tanto
+            y a que no se "noten" no me refiero a que cada uno tenga que cambiar sus formas, es la manera 
+            en la que nos acoplamos a los modos de cada uno. Quiero que no demos nada por hecho, que cada día 
+            nos sigamos enamorando y que no olvidemos esos pequeños detalles que hicieron que estemos acá en este 
+            momento. Que como dice Nanpa 1+1=1 "que no todos los días vamos a tener la misma energía", pero reitero: 
+            de eso se tarta, que nos complementemos el uno al otro, que sea de forma reciporca. "Al final siempre seremos los dos".
+            No pido algo perfecto, ya te había dicho que encuentro perfección en la imperfección. Y es que no me gusta lo monotono,
+            espero que sintamos un amor inteso, que no tiene miedo a guardar lo que siente, sin importar lo que se venga; que para ambos 
+            sea un lugar seguro, un pequeño refugio que sea tan nuestro que ni el exterior va importar.
+            .</p>
+        </div>
+    <script src="juegos.js"> </script>
+</body>
+</html>
