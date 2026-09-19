@@ -33,7 +33,7 @@ body {
     background-color: #e8cfe0;
 
     background-image:
-        linear-gradient(rgba(255, 220, 235, 0.45), rgba(600, 220, 235, 0.45)),
+        linear-gradient(rgba(255, 220, 235, 0.45), rgba(225, 220, 235, 0.45)),
         url("Nosotros.jpg"),
         url("Otra.jpg");
         
@@ -78,7 +78,18 @@ body {
     
         font-size: 30px;
         color: #d85b9c;
+
+        @media (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
     }
+}
+    }
+
+    
     
     .mensaje::after {
         content: "♡";
