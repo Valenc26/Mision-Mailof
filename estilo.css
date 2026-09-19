@@ -34,8 +34,8 @@ body {
 
     background-image:
         linear-gradient(rgba(255, 220, 235, 0.45), rgba(600, 220, 235, 0.45)),
-        url("Fotos/Nosotros.jpg"),
-        url("Fotos/Otra.jpg");
+        url("Nosotros.jpg"),
+        url("Otra.jpg");
         
 
     background-size:
