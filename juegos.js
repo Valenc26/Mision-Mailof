@@ -74,7 +74,7 @@ siguiente4.addEventListener("click", function() {
 
 });
 
-const siguiente4 = document.querySelector("#siguiente5");
+const siguiente5 = document.querySelector("#siguiente5");
 const nivel5 = document.querySelector("#nivel5");
 const nivel6 = document.querySelector("#nivel6");
 
