@@ -69,19 +69,19 @@ const nivel5 = document.querySelector("#nivel5");
 
 siguiente4.addEventListener("click", function() {
 
-
+    nivel4.style.display = "none";
     nivel5.style.display = "block";
 
 });
+
 
 const siguiente5 = document.querySelector("#siguiente5");
 const nivel6 = document.querySelector("#nivel6");
 
 siguiente5.addEventListener("click", function() {
 
-
+    nivel5.style.display = "none";
     nivel6.style.display = "block";
 
 });
-
 
