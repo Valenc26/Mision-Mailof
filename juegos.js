@@ -54,7 +54,6 @@ desbloquear.addEventListener("click", function() {
     if (palabra === "mailof") {
         resultado3.textContent = "🔓 ¡Archivo desbloqueado! ❤️";
         document.querySelector("#nivel4").style.display = "block";
-        nivel4.classList.add("nivel-animado");
 
 
     } else {
